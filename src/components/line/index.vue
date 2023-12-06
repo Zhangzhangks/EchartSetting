@@ -49,6 +49,20 @@ onMounted(() => {
                 type: 'value'
             }
         ],
+        dataZoom: [
+            {
+                id: 'dataZoomX',
+                type: 'slider',
+                xAxisIndex: 0,
+                filterMode: 'none'
+            },
+            {
+                id: 'dataZoomY',
+                type: 'slider',
+                yAxisIndex: 0,
+                filterMode: 'none'
+            }
+        ],
         series: [
             {
                 name: 'Line 1',
